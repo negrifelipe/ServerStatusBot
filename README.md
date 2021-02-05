@@ -1,6 +1,8 @@
 # 🎮 ServerStatusBot 🎮
 A powerful game server status bot for your discord server
 
+Make sure to leave a star i will apreciate it a lot ⭐
+
 # 😱 Features 😱
 A unique message in a selected discord channel for displaying the server status
 
