@@ -3,8 +3,11 @@ A powerful game server status bot for your discord server
 
 # 😱 Features 😱
 A unique message in a selected discord channel for displaying the server status
+
 The message will be updated every time specified in the config.json file
+
 It is fast
+
 It isnt shit
 
 # 👤 Usage 👤
