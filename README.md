@@ -15,5 +15,11 @@ A powerful game server status bot for your discord server
 
 The servers there are from unturned and there are really go if you want you can join and play with your friends
 
+# Issues
+If the bot has any issue or you want to improve the bot just create a pull request and if all is okey and working it will be acepted
+
+# Contributing
+Fell free to contribute, create pull request and if all is okey and working it will be acepted
+
 # Tools
 For this project i used discord.js and official node.js module for interacting with the discord API and gamedig for getting all the game server info
