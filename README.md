@@ -1,6 +1,12 @@
 # 🎮 ServerStatusBot 🎮
 A powerful game server status bot for your discord server
 
+# 😱 Features 😱
+A unique message in a selected discord channel for displaying the server status
+The message will be updated every time specified in the config.json file
+It is fast
+It isnt shit
+
 # 👤 Usage 👤
 1. Download the server status bot folder
 2. Go to the server status folder and open the file called config.json and fill all the info.
