@@ -1,0 +1,27 @@
+{
+    "token": "your token here",
+    "UpdateMessageInterval": 5000,
+    "ChannelId": "807320241570447391",
+    "GameName": "unturned",
+    "EmbedInfo": {
+        "Title": "Our Awesome Servers !",
+        "Color": "#008000",
+        "Description": "Check out our awesome servers feel free to join in all !\n\n**Players:** <players>/<maxplayers>",
+        "ServerField1": "__<servername>__",
+        "ServerField2": "Adress: `<ip>`, Map: <map>, Players: <players>/<maxplayers>"
+    },
+    "Servers": [
+        {
+            "ServerIp": "63.34.143.76",
+            "ServerPort": "28515"
+        },
+        {
+            "ServerIp": "63.34.143.76",
+            "ServerPort": "27016"
+        },
+        {
+            "ServerIp": "63.34.143.76",
+            "ServerPort": "27018"
+        }
+    ]
+}
