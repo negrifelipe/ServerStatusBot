@@ -15,7 +15,7 @@ It isnt shit
 2. Go to the server status folder and open the file called config.json and fill all the info.
 (you can get a bot token at https://discord.com/developers/applications)
 3. Open your cmd and execute: cd folder path. For example cd C:\Users\Felipe\Documents.
-4. Execute de commands: npm i discord.js and npm i gamedig.
+4. Execute de command: npm i
 5. Execute de command: node . ! Be sure that you have installed node.js on yout machine !
 6. Check that all works fine if not re do all the steps if it dont work after that open an issue and i will fix the bug for you
 
