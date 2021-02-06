@@ -34,3 +34,5 @@ Fell free to contribute, create pull request and if all is okey and working it w
 
 # 🔬 Tools 🔬
 For this project i used discord.js and official node.js module for interacting with the discord API and gamedig for getting all the game server info
+
+[![Github All Releases](https://img.shields.io/github/downloads/01-Feli/ServerStatusBot/total?label=Github%20Downloads)]()
