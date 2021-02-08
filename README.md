@@ -25,6 +25,7 @@ It isnt shit
 
 # 🌠 Preview 🌠
 ![Preview](https://i.imgur.com/sYsF2Z3.png)
+![Preview](https://i.imgur.com/xAmbfB9.png)
 
 The servers there are from unturned and there are really go if you want you can join and play with your friends
 
@@ -36,5 +37,29 @@ Fell free to contribute, create pull request and if all is okey and working it w
 
 # 🔬 Tools 🔬
 For this project i used discord.js and official node.js module for interacting with the discord API and gamedig for getting all the game server info
+
+# 🥨 Config 🥨
+```
+{
+    "token": "your_tocken_here",
+    "UpdateMessageInterval": 5000,
+    "ChannelId": "807320241570447391",
+    "GameName": "unturned",
+    "ShowPlayers": true,
+    "EmbedInfo": {
+        "Title": "Our Awesome Servers !",
+        "Color": "#008000",
+        "Description": "Check out our awesome servers feel free to join in all !\n\n**Players:** <players>/<maxplayers>",
+        "ServerField1": "__<servername>__",
+        "ServerField2": "**Adress: [<ip>](https://discord.gg/bNxqSWJU3d)  Map: [<map>](https://discord.gg/bNxqSWJU3d)  Players: [<players>/<maxplayers>](https://discord.gg/bNxqSWJU3d)**"
+    },
+    "Servers": [
+        {
+            "ServerIp": "64.74.163.82",
+            "ServerPort": "28015"
+        }
+    ]
+}
+```
 
 [![Github All Releases](https://img.shields.io/github/downloads/01-Feli/ServerStatusBot/total?label=Github%20Downloads)]()
