@@ -27,7 +27,7 @@ It isnt shit
 ![Preview](https://i.imgur.com/sYsF2Z3.png)
 ![Preview](https://i.imgur.com/xAmbfB9.png)
 
-The servers there are from unturned and there are really go if you want you can join and play with your friends
+The servers there are from unturned and there are really good if you want you can join and play with your friends
 
 # 💊 Issues 💊
 If the bot has any issue or you want to improve the bot just create a pull request and if all is okey and working it will be acepted
