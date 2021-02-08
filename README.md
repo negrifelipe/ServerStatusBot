@@ -16,7 +16,7 @@ It isnt shit
 
 # 👤 Usage 👤
 1. Download the server status bot folder
-2. Go to the server status folder and open the file called config.json and fill all the info.
+2. Go to the server status folder and open the file called config.json and fill all the info. | Leave the port on 0 if you dont want to use a specified port
 (you can get a bot token at https://discord.com/developers/applications)
 3. Open your cmd and execute: cd folder path. For example cd C:\Users\Felipe\Documents.
 4. Execute de command: npm i
