@@ -1,27 +1,20 @@
 {
-    "token": "your token here",
+    "token": "your_tocken_here",
     "UpdateMessageInterval": 5000,
     "ChannelId": "807320241570447391",
     "GameName": "unturned",
+    "ShowPlayers": true,
     "EmbedInfo": {
         "Title": "Our Awesome Servers !",
         "Color": "#008000",
         "Description": "Check out our awesome servers feel free to join in all !\n\n**Players:** <players>/<maxplayers>",
         "ServerField1": "__<servername>__",
-        "ServerField2": "Adress: `<ip>`, Map: <map>, Players: <players>/<maxplayers>"
+        "ServerField2": "**Adress: [<ip>](https://discord.gg/bNxqSWJU3d)  Map: [<map>](https://discord.gg/bNxqSWJU3d)  Players: [<players>/<maxplayers>](https://discord.gg/bNxqSWJU3d)**"
     },
     "Servers": [
         {
-            "ServerIp": "63.34.143.76",
-            "ServerPort": "28515"
-        },
-        {
-            "ServerIp": "63.34.143.76",
-            "ServerPort": "27016"
-        },
-        {
-            "ServerIp": "63.34.143.76",
-            "ServerPort": "27018"
+            "ServerIp": "64.74.163.82",
+            "ServerPort": "28015"
         }
     ]
 }
