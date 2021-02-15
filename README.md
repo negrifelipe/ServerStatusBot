@@ -41,22 +41,67 @@ For this project i used discord.js and official node.js module for interacting w
 # 🥨 Config 🥨
 ```
 {
-    "token": "your_tocken_here",
-    "UpdateMessageInterval": 5000,
+    "token": "your_token_here",
+    "UpdateMessageInterval": 4000,
     "ChannelId": "807320241570447391",
     "GameName": "unturned",
-    "ShowPlayers": true,
     "EmbedInfo": {
         "Title": "Our Awesome Servers !",
         "Color": "#008000",
-        "Description": "Check out our awesome servers feel free to join in all !\n\n**Players:** <players>/<maxplayers>",
+        "Description": "Check out our awesome servers feel free to join in all !\n\n**Total Players:** <players>/<maxplayers>",
         "ServerField1": "__<servername>__",
         "ServerField2": "**Adress: [<ip>](https://discord.gg/bNxqSWJU3d)  Map: [<map>](https://discord.gg/bNxqSWJU3d)  Players: [<players>/<maxplayers>](https://discord.gg/bNxqSWJU3d)**"
     },
     "Servers": [
         {
-            "ServerIp": "64.74.163.82",
-            "ServerPort": "28015"
+            "ServerIp": "88.17.101.253",
+            "ServerPort": "27015",
+            "ShowPlayers": true,
+            "UnsafeCount": false
+        },
+        {
+            "ServerIp": "94.23.110.56",
+            "ServerPort": "27015",
+            "ShowPlayers": true,
+            "UnsafeCount": false
+        },
+        {
+            "ServerIp": "94.23.110.56",
+            "ServerPort": "27018",
+            "ShowPlayers": true,
+            "UnsafeCount": false
+        }
+    ]
+}{
+    "token": "your_token_here",
+    "UpdateMessageInterval": 4000,
+    "ChannelId": "807320241570447391",
+    "GameName": "unturned",
+    "EmbedInfo": {
+        "Title": "Our Awesome Servers !",
+        "Color": "#008000",
+        "Description": "Check out our awesome servers feel free to join in all !\n\n**Total Players:** <players>/<maxplayers>",
+        "ServerField1": "__<servername>__",
+        "ServerField2": "**Adress: [<ip>](https://discord.gg/bNxqSWJU3d)  Map: [<map>](https://discord.gg/bNxqSWJU3d)  Players: [<players>/<maxplayers>](https://discord.gg/bNxqSWJU3d)**"
+    },
+    "Servers": [
+        {
+            "ServerIp": "88.17.101.253",
+            "ServerPort": "27015",
+            "ShowPlayers": true,
+            "UnsafeCount": false
+        },
+        {
+            "ServerIp": "94.23.110.56",
+            "ServerPort": "27015",
+            "ShowPlayers": true,
+            "UnsafeCount": false
+        },
+        {
+            "ServerIp": "94.23.110.56",
+            "ServerPort": "27018",
+            "ShowPlayers": true,
+            "UnsafeCount": false
         }
     ]
 }
