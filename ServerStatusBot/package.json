@@ -1,6 +1,6 @@
 {
   "name": "ServerStatusBot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple but powerful server status bot",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "gamedig": "^2.0.24"
+    "gamedig": "^2.0.27"
   }
 }
