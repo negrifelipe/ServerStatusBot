@@ -49,7 +49,7 @@ async function SendMessage(channel){
                         name: config.EmbedInfo.ServerField1.replace("<servername>", server.name), value: config.EmbedInfo.ServerField2.replace("<ip>", server.connect).replace("<map>", server.map).replace("<players>", server.players.length).replace("<maxplayers>", server.maxplayers)
                     }
                 )
-                if(config.ShowPlayers){
+                if(x.ShowPlayers){
                     for(var o = 0; o < server.players.length; o++){
                         var player = server.players[o];
                         embed.addFields({
