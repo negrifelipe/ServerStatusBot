@@ -86,7 +86,6 @@ async function UpdateEmbed (message){
             if(server != null){
                 players += server.players.length;
                 maxplayers += server.maxplayers;
-                console.log(server)
                 var canAddUnsafe = false;
                 var localPlayers = server.players.length;
                 if(x.UnsafeCount && server.bots[0].name != null) {
