@@ -24,8 +24,9 @@ It isnt shit
 6. Check that all works fine if not re do all the steps if it dont work after that open an issue and i will fix the bug for you
 
 # 🌠 Preview 🌠
-![Preview](https://i.imgur.com/sYsF2Z3.png)
+
 ![Preview](https://i.imgur.com/xAmbfB9.png)
+![Preview](https://i.imgur.com/sYsF2Z3.png)
 
 The servers there are from unturned and there are really good if you want you can join and play with your friends
 
@@ -41,38 +42,6 @@ For this project i used discord.js and official node.js module for interacting w
 # 🥨 Config 🥨
 ```
 {
-    "token": "your_token_here",
-    "UpdateMessageInterval": 4000,
-    "ChannelId": "807320241570447391",
-    "GameName": "unturned",
-    "EmbedInfo": {
-        "Title": "Our Awesome Servers !",
-        "Color": "#008000",
-        "Description": "Check out our awesome servers feel free to join in all !\n\n**Total Players:** <players>/<maxplayers>",
-        "ServerField1": "__<servername>__",
-        "ServerField2": "**Adress: [<ip>](https://discord.gg/bNxqSWJU3d)  Map: [<map>](https://discord.gg/bNxqSWJU3d)  Players: [<players>/<maxplayers>](https://discord.gg/bNxqSWJU3d)**"
-    },
-    "Servers": [
-        {
-            "ServerIp": "88.17.101.253",
-            "ServerPort": "27015",
-            "ShowPlayers": true,
-            "UnsafeCount": false
-        },
-        {
-            "ServerIp": "94.23.110.56",
-            "ServerPort": "27015",
-            "ShowPlayers": true,
-            "UnsafeCount": false
-        },
-        {
-            "ServerIp": "94.23.110.56",
-            "ServerPort": "27018",
-            "ShowPlayers": true,
-            "UnsafeCount": false
-        }
-    ]
-}{
     "token": "your_token_here",
     "UpdateMessageInterval": 4000,
     "ChannelId": "807320241570447391",
