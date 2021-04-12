@@ -44,17 +44,33 @@ async function SendMessage(channel){
             if(server != null){
                 players += server.players.length;
                 maxplayers += server.maxplayers;
+                var canAddUnsafe = false;
+                var localPlayers = server.players.length;
+                if(x.UnsafeCount && server.bots[0].name != null) {
+                    localPlayers += server.bots.length;
+                    players += server.bots.length;
+                    canAddUnsafe = true;
+                }
                 embed.addFields(
                     {
-                        name: config.EmbedInfo.ServerField1.replace("<servername>", server.name), value: config.EmbedInfo.ServerField2.replace("<ip>", server.connect).replace("<map>", server.map).replace("<players>", server.players.length).replace("<maxplayers>", server.maxplayers)
+                        name: config.EmbedInfo.ServerField1.replace("<servername>", server.name), value: config.EmbedInfo.ServerField2.replace("<ip>", server.connect).replace("<map>", server.map).replace("<players>", localPlayers).replace("<maxplayers>", server.maxplayers)
                     }
                 )
                 if(x.ShowPlayers){
                     for(var o = 0; o < server.players.length; o++){
                         var player = server.players[o];
                         embed.addFields({
-                            name: ":bust_in_silhouette: " + player.name, value: ":hourglass_flowing_sand: " + GetTime(player.time)
+                            name: ":bust_in_silhouette: " + player.name, value: ":hourglass_flowing_sand: " + GetTime(player.raw.time), inline: true
                         })
+                    }
+
+                    if(canAddUnsafe){
+                        for(var o = 0; o < server.players.length; o++){
+                            var bot = server.bots[o];
+                            embed.addFields({
+                                name: ":bust_in_silhouette: " + bot.name, value: ":hourglass_flowing_sand: " + GetTime(bot.raw.time), inline: true
+                            })
+                        }
                     }
                 }
             }
@@ -102,7 +118,7 @@ async function UpdateEmbed (message){
                     for(var o = 0; o < server.players.length; o++){
                         var player = server.players[o];
                         embed.addFields({
-                            name: ":bust_in_silhouette: " + player.name, value: ":hourglass_flowing_sand: " + GetTime(player.time), inline: true
+                            name: ":bust_in_silhouette: " + player.name, value: ":hourglass_flowing_sand: " + GetTime(player.raw.time), inline: true
                         })
                     }
 
@@ -110,7 +126,7 @@ async function UpdateEmbed (message){
                         for(var o = 0; o < server.players.length; o++){
                             var bot = server.bots[o];
                             embed.addFields({
-                                name: ":bust_in_silhouette: " + bot.name, value: ":hourglass_flowing_sand: " + GetTime(bot.time), inline: true
+                                name: ":bust_in_silhouette: " + bot.name, value: ":hourglass_flowing_sand: " + GetTime(bot.raw.time), inline: true
                             })
                         }
                     }
