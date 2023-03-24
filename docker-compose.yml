@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  bot:
+    restart: unless-stopped
+    build: 
+      context: .
+      dockerfile: ServerStatusBot/Dockerfile
+    volumes:
+    - "./ServerStatusBot/appsettings.Production.json:/app/appsettings.json"
