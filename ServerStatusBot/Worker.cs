@@ -43,31 +43,6 @@ public class Worker : BackgroundService
             
             _logger.LogDebug("Getting information of {Count} servers", servers.Count);
 
-            /*var infos = new List<ServerInfo>();
-
-            foreach (var server in servers)
-            {
-                var sections = server.Split(":");
-                var ip = sections[0];
-
-                if (!IPAddress.TryParse(ip, out _))
-                {
-                    _logger.LogWarning("Server: {server} does not have a valid ip or port separated by ':'", server);
-                    continue;
-                }
-
-                if (!int.TryParse(sections[1], out var port))
-                {                   
-                    _logger.LogWarning("Server: {server} does not have a valid ip or port separated by ':'", server);
-                    continue;
-                }
-
-                var info = await ServerInfo.QueryAsync(ip, port);   
-                
-                if(info is not null)
-                    infos.Add(info);
-            }*/
-            
             var infos = await Task.WhenAll(servers.Select(server =>
             {
                 var sections = server.Split(":");
@@ -84,7 +59,7 @@ public class Worker : BackgroundService
                     _logger.LogWarning("Server: {server} does not have a valid ip or port separated by ':'", server);
                     return Task.FromResult(default(ServerInfo));
                 }
-
+                _logger.LogDebug("Getting status of server {ip}:{port}", ip, port);
                 return ServerInfo.QueryAsync(ip, port);   
             }));
             
