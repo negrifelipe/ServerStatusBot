@@ -2,7 +2,7 @@
 A powerful game server status bot for your discord server
 
 ## Running
-Make sure you have docker installed before following this
+Make sure you have docker and git installed before following this
 
 1. Clone the repository
 2. Inside `ServerStatusBot` folder create a file named `appsettings.Production.json`
