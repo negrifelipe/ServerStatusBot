@@ -7,5 +7,3 @@ services:
       context: .
       dockerfile: ServerStatusBot/Dockerfile
     network_mode: host
-    volumes:
-    - "./ServerStatusBot/appsettings.Production.json:/app/appsettings.json"
